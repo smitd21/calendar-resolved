@@ -1,0 +1,14 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - 12
+
+install:
+    - npm i
+
+script:
+  - npm run checkAll
+
+after_script: npx codecov@3
