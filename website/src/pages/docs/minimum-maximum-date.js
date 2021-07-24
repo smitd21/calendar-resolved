@@ -31,7 +31,7 @@ const MinimumMaximumDate = () => {
       <p>
         There are many cases where you want to somehow limit the user to choose a
         day in a appropriate range. That&#39;s
-        when <code className="custom-code">minimumDate</code> and <code className="custom-code">mximumDate</code> props
+        when <code className="custom-code">minimumDate</code> and <code className="custom-code">maximumDate</code> props
         come in handy. Here are some examples:
       </p>
 
